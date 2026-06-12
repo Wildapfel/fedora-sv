@@ -12,4 +12,5 @@ rpm-ostree install \
     R-devel \
     'gcc-c++' \
     java-25-openjdk \
-    make
+    make \
+    rclone
