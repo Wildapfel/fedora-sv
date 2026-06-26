@@ -5,6 +5,10 @@
 - dont set leftalt as a alternating key !
 - use one that i never really use (e.g. rightsuper (rightmeta))
 
+## changing @ symbol position
+- due to the macos layout the @ symbol moved to alt+ü
+- otherwise I could use alt+q for closeing  
+
 *quick note*
 - I had the issue that when settings leftalt to an alternating key, the alternating works for left and right,
   but gnome cannot map the alt button anymore to shortcuts (e.g. when switching applications)
