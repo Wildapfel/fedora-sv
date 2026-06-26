@@ -2,7 +2,7 @@
 
 **1. Layer OStree**
 
-- followed by a reboot: `systemctl reboot`
+- continues with a reboot: `systemctl reboot`
 - also installs vscode
 
 ```Shell
