@@ -1,0 +1,238 @@
+
+{
+
+    /*
+    * Java - Configuration
+    */
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "/usr/lib/jvm/java-21-openjdk",
+            "default": true
+        }
+    ],
+    "java.errors.in.editor": true,
+    "java.inlayHints.parameterTypes.enabled": false,
+    "java.inlayHints.parameterNames.exclusions": [],
+
+    /*
+    * Debug
+    */ 
+    "debug.openDebug": "neverOpen",
+    
+
+    // Terminal
+    "terminal.integrated.defaultLocation": "view",
+    "workbench.startupEditor": "none",
+
+    // explorer
+    "explorer.autoReveal": false,
+
+    /*
+    * Testing
+    */
+    "testing.automaticallyOpenTestResults": "neverOpen",
+
+
+    /*
+    * Editor-Configuration
+    */
+    
+    // 
+    "editor.codeLens": false,                       
+
+    // also highlight sematically   
+    "editor.semanticHighlighting.enabled": true,    
+    
+    // number of lines bar 
+    "editor.folding": true,         // doent disbale this, otherwise F1 and F2 wont work anymore ....
+    "editor.glyphMargin": false,
+    "editor.lineNumbers": "on",
+
+
+    /* 
+    * Theme
+    *
+    */
+    
+    // Python
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+
+    // R
+    "r.rterm.linux": "/usr/bin/R",
+    "r.lsp.path": "/usr/bin/R",
+    "r.plot.useHttpgd": true,
+    "r.plot.httpgdPort": 4200,
+    "r.plot.openDevice": true,
+    "r.plot.external": false,
+    "terminal.integrated.focusAfterRun": true,
+    "r.alwaysUseActiveTerminal": false,
+    "r.sessionWatcher": true,
+    // "r.rterm.linux": "~/.local/bin/radian",
+    "r.rterm.option": [],
+    "r.bracketedPaste": true,
+    /*
+     
+    */
+    "r.lsp.diagnostics": false,
+    "r.rmarkdown.enableCodeLens": false,
+
+   
+
+    // C/C++
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.cppStandard": "c++20",
+    "clangd.path": "/home/maxpetzold/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/21.1.8/clangd_21.1.8/bin/clangd",
+    "clangd.detectExtensionConflicts": false,
+   
+
+    // all around except the editor
+    "workbench.colorCustomizations": {
+
+        "tab.activeBackground": "#0000002b",
+
+        // current active selection (e.g. currenly open in editor)
+        // "list.inactiveSelectionBackground": "#4d90fe80",       // fully transparent
+        "list.activeSelectionBackground": "#7f86bb80",          // visible active selection,
+
+        // focused selection when usey arrow (up and down)
+        "list.focusBackground": "#4d90fe80",
+
+        // very left bar (e.g. extnsion, ..)
+        "activityBar.foreground":  "#e5c4ff80",
+
+        "editor.background": "#171819",
+
+        "progressBar.background": "#fff0",
+
+        "editorRuler.foreground": "#d90d0d00"//transparent
+
+    },
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.inheritEnv": false,
+    "python.defaultInterpreterPath": "/var/home/maxpetzold/anaconda3",
+    "workbench.startupEditor": "none",
+    "extensions.ignoreRecommendations": true,
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.env.linux": {
+        "PATH": "/usr/bin:/usr/local/bin:${env:PATH}"
+    },
+    "workbench.editorLargeFileConfirmation": 200,
+    "notebook.lineNumbers": "on",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.saturation": 0.8,
+    "workbench.panel.opensMaximized": "never",
+    "window.autoDetectColorScheme": true,
+    "window.autoDetectHighContrast": false,
+    "editor.bracketPairColorization.enabled": false,
+    "workbench.preferredHighContrastColorTheme": "Dark Modern",
+    "workbench.preferredHighContrastLightColorTheme": "Dark Modern",
+    "workbench.editor.enablePreview": false,
+    "workbench.list.openMode": "doubleClick",
+    "terminal.integrated.mouseWheelZoom": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.tree.indent": 10,
+    "workbench.colorTheme": "Monokai Classic",
+    "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": false,
+
+    "jupyter.logging.level": "trace",
+    "python.analysis.typeCheckingMode": "basic",
+    "search.searchView.semanticSearchBehavior": "runOnEmpty",
+    "jdk.java.onSave.organizeImports": false,
+
+
+
+    // Suggestion (autocomplete)
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.inlineSuggest.edits.renderSideBySide": "never",
+    "editor.inlineSuggest.experimental.emptyResponseInformation": false,
+    "editor.inlineSuggest.showToolbar": "never",
+    "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+    "editor.suggest.showStatusBar": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.inlineSuggest.suppressInSnippetMode": false,
+    "editor.quickSuggestions": {
+        "other": "on"
+    },
+    "editor.acceptSuggestionOnTab": false,
+    "editor.tabCompletion": "off",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.suggest.showKeywords": true,
+    "editor.suggest.showSnippets": true,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showVariables": true,
+    "window.zoomLevel": 2,
+    "java.debug.settings.debugSupportOnDecompiledSource": "off",
+    "java.debug.settings.enableRunDebugCodeLens": false,
+    "redhat.telemetry.enabled": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "jprofiler.executable": "/var/home/maxpetzold/HUB_local_PARA/projects/refactor_java_bwt/pattern_matching/src/test/io/IOTest.java",
+    "window.confirmSaveUntitledWorkspace": false,
+    "explorer.confirmPasteNative": false,
+    "java.inlayHints.parameterNames.suppressWhenSameNameNumbered": false,
+    "java.inlayHints.parameterNames.enabled": "none",
+    "workbench.activityBar.location": "top",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.secondarySideBar.showLabels": false,
+    "zenMode.hideLineNumbers": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "Dark Modern",
+    "terminal.integrated.fontSize": 13,
+    "workbench.browser.showInTitleBar": true,
+    "workbench.openInAgents.enabled": false,
+    "workbench.layoutControl.type": "toggles",
+    "window.commandCenter": false,
+    "workbench.browser.showInTitleBar": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.titleBar.signIn.enabled": false,
+    "workbench.editor.splitOnDragAndDrop": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.activityBar.location": "top",
+    "window.commandCenter": false,
+    "workbench.browser.showInTitleBar": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.titleBar.signIn.enabled": false,
+    "workbench.editor.splitOnDragAndDrop": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "window.commandCenter": false,
+    "workbench.browser.showInTitleBar": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.titleBar.signIn.enabled": false,
+    "workbench.editor.splitOnDragAndDrop": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "chat.disableAIFeatures": true,
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "toggle",
+
+    // minimalistic looks
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.browser.showInTitleBar": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.titleBar.signIn.enabled": false,
+    "workbench.editor.splitOnDragAndDrop": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "chat.disableAIFeatures": true,
+    "workbench.activityBar.location": "top",
+
+}

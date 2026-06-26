@@ -1,0 +1,59 @@
+{
+  /*
+   * Mimic the vscode theme.
+   *
+   */
+  "cli_default_open_behavior": "existing_window",
+  "format_on_save": "off",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "semantic_tokens": "combined",
+  "buffer_font_features": {
+    "calt": false,
+  },
+  "theme": "VSCode Dark Modern",
+  "experimental.theme_overrides": {
+    "editor.background": "#171819",
+    "syntax": {
+      "operator": {
+        "color": "#CCCCCC",
+      },
+      "keyword": {
+        "color": "#C586C0",
+      },
+      "module": {
+        "color": "#4EC9B0",
+      },
+      "constant": {
+        "color": "#4FC1FF",
+      },
+      "namespace": {
+        "color": "#4EC9B0",
+      },
+      "class": {
+        "color": "#4EC9B0",
+      },
+      "parameter": {
+        "color": "#9CDCFE",
+      },
+      "function": {
+        "color": "#00",
+      },
+    },
+  },
+}

@@ -1,0 +1,266 @@
+[
+    /*
+        Notebooks
+        ---------
+        - quick note, there are two objects ... one is called
+          notebook and the other is called jupyter, but both
+          can act on the jupyter notebook
+        - Somehow relevant functionality is added to both
+        - notebook. = VS Code’s built-in universal notebook system
+        - jupyter. = old commands provided by the Jupyter extension
+    */
+
+    {
+        "key": "a",
+        "command": "notebook.cell.insertCodeCellAbove",
+        "when": "!inputFocus"
+    },
+    {
+        "key": "b",
+        "command": "notebook.cell.insertCodeCellBelow",
+        "when": "!inputFocus"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "jupyter.notebookeditor.runallcells",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "notebook.cell.execute",
+        "when": "notebookEditorFocused"
+    },
+
+
+
+
+    /*
+        Brackets
+        --------
+        - add some nice bracket functionality, as i know from windows
+
+    */
+
+    // also add the backslash
+    {
+        "key": "alt+[Minus]",   //vs code recognizes ß as [Minus]
+        "command": "type",
+        "args": { "text": "\\" },
+        "when": "editorTextFocus"
+    },
+
+    // only fold the current selected function
+    {
+        "key" : "alt+f",
+        "command": "editor.fold",
+        "when" : "editorTextFocus"
+    },
+    {
+        "key" : "alt+f",
+        "command": "editor.toggleFold",
+        "when" : "editorTextFocus"
+    },
+
+
+
+    // - switch the files inside a workspace
+    {
+        "key": "ctrl+tab",
+        "command" : "workbench.action.nextEditorInGroup",
+    },
+    {
+        "key": "alt+shift+tab",
+        "command" : "workbench.action.previousEditorInGroup",
+    },
+
+    // How to use that for the altgr
+    // {
+    //     "key": "ctrl+alt+tab",
+    //     "command" : "workbench.action.nextEditorInGroup",
+    // },
+    // {
+    //     "key": "alt+shift+tab",
+    //     "command" : "workbench.action.previousEditorInGroup",
+    // },
+
+
+    // - add alt (left) behaves as ctrl+alt like on windows for the brackets {} and []
+    // - when I dont use alt (left) in linux
+    {
+        "key": "alt+7",
+        "command": "type",
+        "args": { "text": "{" }
+    },
+    {
+        "key": "alt+0",
+        "command": "type",
+        "args": { "text": "}" }
+    },
+    {
+        "key": "alt+8",
+        "command": "type",
+        "args": { "text": "[" }
+    },
+    {
+        "key": "alt+9",
+        "command": "type",
+        "args": { "text": "]" }
+    },
+
+    // fold all hotkey
+    {
+        "key" : "F1",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+
+    // {   "key" : "ctrl+a",
+    //     "command" : "list.selectAll"}
+
+    // unfold all hotkey
+    {
+        "key" : "F2",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+
+    // copy full path from selected file in workspace
+    {
+        "key": "ctrl+shift+c",
+        "command": "copyFilePath",
+        "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+[Backslash]",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+7",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openFile",
+        "when": "true"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFile",
+        "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-editor.action.accessibleViewGoToSymbol",
+        "when": "accessibilityHelpIsShown && accessibleViewGoToSymbolSupported || accessibleViewGoToSymbolSupported && accessibleViewIsShown"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol",
+        "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.files.openFolder",
+        "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-workbench.action.files.openFolder",
+        "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.terminal.openDetectedLink",
+        "when": "terminalFocus && terminalHasBeenCreated"
+    },
+    {
+        "key": "ctrl+shift+[Comma] a",
+        "command": "-jupyter.insertCellAbove",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    // {
+    //     "key": "ctrl+b",
+    //     "command": "jupyter.insertCellBelow",
+    //     "when": "notebookEditorFocused || jupyter.hascodecells"
+    // },
+    {
+        "key": "ctrl+shift+[Comma] b",
+        "command": "-jupyter.insertCellBelow",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-workbench.action.chat.focusConfirmation",
+        "when": "accessibilityModeEnabled && chatIsEnabled"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-notification.acceptPrimaryAction",
+        "when": "notificationFocus || notificationToastsVisible"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-jupyter.runByLineStop",
+        "when": "notebookCellResource in 'jupyter.notebookeditor.runByLineCells'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "jupyter.runcurrentcell",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-jupyter.runcurrentcell",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.runcurrentcelladvance",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "jupyter.changeCellToCode",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+[Comma] c",
+        "command": "-jupyter.changeCellToCode",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "jupyter.changeCellToMarkdown",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+[Comma] m",
+        "command": "-jupyter.changeCellToMarkdown",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    }
+]
