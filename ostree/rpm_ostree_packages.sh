@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rpm-ostree install \
+    fastfetch \
     htop \
     sushi \
     fuse-sshfs \
@@ -13,4 +14,6 @@ rpm-ostree install \
     'gcc-c++' \
     java-25-openjdk \
     make \
-    rclone
+    rclone \
+    borgbackup \
+    vorta
