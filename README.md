@@ -3,9 +3,10 @@
 **1. Layer OStree**
 
 - followed by a reboot: `systemctl reboot`
+- also installs vscode
 
 ```Shell
-./fedora_silverblue_system --ostrees
+./fedora_silverblue_system --ostree+vscode
 ```
 
 **2. Install Tools**
