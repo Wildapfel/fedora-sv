@@ -15,7 +15,7 @@ toolbox run --container wikiman bash -c "
 # make binary visible
 echo $PWD
 cd $PWD/tools/wikiman
-cp wikiman.sh ~/.local/bin
+cp wikiman.sh ~/.local/bin/wikiman
 
 # remove the citation request parallel --citation  -c "echo hello from inside toolbox"
 # toolbox run -it --container wikiman bash
