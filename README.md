@@ -6,9 +6,11 @@
 - Please people, do be like me, and spend time understanding how the apps save there configs, only export ``.config`` and exclude some heavy cache and tmp files :D
 - I am using virtual machines (gnome boxes) for dev/testing     
 
+---
+
 **1. Layer OStree**
+- oslayering (incl. vscode)
 - continue with a reboot: `systemctl reboot`
-- also installs vscode
 
 ```Shell
 ./fedora_silverblue_system --ostree+vscode
@@ -26,3 +28,6 @@
 ```bash
 ./fedora_silverblue_system.sh --apps
 ```
+
+
+
