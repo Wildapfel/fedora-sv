@@ -1,5 +1,10 @@
 ## fedora-silverblue
 
+- I am using f-sv mostly for its safety and reliability
+- Withing the last 2 years are barely crushed my system and had to deploy the previous commit (but exactly thats the benefit of using silverblue)
+- I realized that when you figured out what tools you need in the os-layer, you barely use `rpm-ostree` again (it can get slower installing new tools when you have installed multiple tools already, but you barely do that)
+- Otherwise, a tool either comes from `flatpak` or lives inside a `toolbox`
+
 **1. Layer OStree**
 
 - continue with a reboot: `systemctl reboot`
