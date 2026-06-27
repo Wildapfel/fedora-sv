@@ -10,5 +10,9 @@
 - otherwise I could use alt+q for closeing  
 
 *quick note*
-- I had the issue that when settings leftalt to an alternating key, the alternating works for left and right,
+- I had the issue that when settings leftalt to an alternating key, the alternating works for
+ left and right,
   but gnome cannot map the alt button anymore to shortcuts (e.g. when switching applications)
+
+**source**
+- https://github.com/rvaiya/keyd
