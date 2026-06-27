@@ -10,6 +10,8 @@
 
 **0. Get Fedora**
 - Iam currntly using F43 
+- ISO-source:
+    - https://mirror.seas.harvard.edu/fedora/linux/releases/
 
 **1. Layer OStree**
 - oslayering (incl. vscode)
