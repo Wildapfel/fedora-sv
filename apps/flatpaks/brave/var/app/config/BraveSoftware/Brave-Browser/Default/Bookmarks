@@ -1,11 +1,11 @@
 {
-   "checksum": "af2762334945c6f23152ea0a9726fba5",
+   "checksum": "be898bdd033e0ed0181fbeb9faad3e82",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "children": [ {
                "date_added": "13412672311000000",
-               "date_last_used": "13426001718043838",
+               "date_last_used": "13427018792054369",
                "guid": "8f6bac96-ee16-46e4-94eb-270f2d0541c0",
                "id": "5",
                "name": "Wildapfel (Max)",
@@ -13,7 +13,7 @@
                "url": "https://github.com/Wildapfel"
             }, {
                "date_added": "13412154779000000",
-               "date_last_used": "13426001621519628",
+               "date_last_used": "13427018787608391",
                "guid": "1c3dfed2-3f8b-4ecb-b42a-9a2a0f020b9d",
                "id": "6",
                "name": "Yahoo",
@@ -21,7 +21,7 @@
                "url": "https://mail.yahoo.com/n/folders/1?.src=ym&reason=myc"
             }, {
                "date_added": "13425736288541010",
-               "date_last_used": "13426001715907070",
+               "date_last_used": "13427018790367851",
                "guid": "9446e20e-6169-4491-8d92-4347ec0c8f06",
                "id": "2279",
                "meta_info": {
@@ -218,10 +218,21 @@
                   "name": "Computational Biologist",
                   "type": "url",
                   "url": "https://jobs.dkfz.de/en/jobs/168565/computational-biologist?mtm_campaign=dkfz-de&mtm_kwd=168565"
+               }, {
+                  "date_added": "13426606686336995",
+                  "date_last_used": "13426606749329739",
+                  "guid": "e1a607cb-1a5a-49ca-94db-9b295bb7dbd1",
+                  "id": "2291",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Career Opportunities: Principal Machine Learning Scientist (all genders) (873348)",
+                  "type": "url",
+                  "url": "https://career012.successfactors.eu/career?company=C0003153479P&career_job_req_id=873348&career_ns=job_application&src=Bundesagentur"
                } ],
                "date_added": "13424439611761614",
                "date_last_used": "0",
-               "date_modified": "13424631250249007",
+               "date_modified": "13426606688304076",
                "guid": "b65153e7-99a6-432b-a6fa-c5d33ec988f1",
                "id": "2254",
                "name": "new",
@@ -486,7 +497,7 @@
             }, {
                "children": [ {
                   "date_added": "13421233182325488",
-                  "date_last_used": "0",
+                  "date_last_used": "13426689311159701",
                   "guid": "48a59ab2-e630-4126-9e8b-a7ffa56348e1",
                   "id": "2112",
                   "meta_info": {
@@ -765,7 +776,7 @@
                "url": "https://www.jobexport.de/detail/5111615/principal-data-scientist-m-w-d?exp=81&board=ba"
             }, {
                "date_added": "13411475290000000",
-               "date_last_used": "13424439345873446",
+               "date_last_used": "13426689299224697",
                "guid": "1622aca9-64cc-4ad9-9de3-8730f6b1f58f",
                "id": "113",
                "name": "Breakthrough AI Startups Making Waves in Healthcare in 2025",
@@ -845,10 +856,94 @@
             } ],
             "date_added": "13413828968232337",
             "date_last_used": "0",
-            "date_modified": "13424631120631419",
+            "date_modified": "13426606686336995",
             "guid": "34352c82-dac0-457b-8725-427511125b65",
             "id": "95",
             "name": "jobs",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13422721222899713",
+               "date_last_used": "13426689290812776",
+               "guid": "d3999353-ac96-4e5d-9397-c534db74267f",
+               "id": "2184",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ChatGPT",
+               "type": "url",
+               "url": "https://chatgpt.com/"
+            }, {
+               "date_added": "13422721237502076",
+               "date_last_used": "13427018099001379",
+               "guid": "5e520f2a-79ed-454f-9f22-fe34a53237fd",
+               "id": "2185",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "DeepSeek - Into the Unknown",
+               "type": "url",
+               "url": "https://chat.deepseek.com/"
+            } ],
+            "date_added": "13422721218959773",
+            "date_last_used": "0",
+            "date_modified": "13422721239787820",
+            "guid": "241bbc94-4f67-4b2a-90af-ba31208b72d3",
+            "id": "2183",
+            "name": "LLMs",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13426773907836585",
+               "date_last_used": "13426925288715114",
+               "guid": "718e09cb-1353-45a9-b9ae-68e3c05d2221",
+               "id": "2294",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Konzentriere dich wie ein CEO in deinem Penthouse - Arbeitsmusik für maximale Konzentration und E... - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=C6ioXu9MoWw"
+            }, {
+               "date_added": "13426773973116912",
+               "date_last_used": "13426944849185602",
+               "guid": "9fb34fa2-09c4-4f96-9491-84dc8828470c",
+               "id": "2295",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "lofi hip hop radio 📚 beats to relax/study to - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=X4VbdwhkE10"
+            }, {
+               "date_added": "13426773997540851",
+               "date_last_used": "13427016960679527",
+               "guid": "33d6bd7e-55cd-42a5-b557-13100fb5e0fd",
+               "id": "2296",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "24/7 CEO MODE Live | Deep Focus Music for Coding, Work & Extreme Productivity - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=q770AP07Xqw"
+            }, {
+               "date_added": "13426774190599879",
+               "date_last_used": "13426950088924659",
+               "guid": "56d3f1fc-330a-4914-927a-f3c51dedf2e3",
+               "id": "2297",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Musik für die Nachtarbeit - Cyberradio für Konzentration und Inspiration - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=GfwvRYgO2ko"
+            } ],
+            "date_added": "13426773882214631",
+            "date_last_used": "0",
+            "date_modified": "13426774190599879",
+            "guid": "dfa1e2c0-86bd-47f5-90b2-57fa5016a4d3",
+            "id": "2293",
+            "name": "live-stream",
             "type": "folder"
          }, {
             "children": [ {
@@ -864,7 +959,7 @@
                "url": "https://mprep.info/gpu/"
             }, {
                "date_added": "13421565780521986",
-               "date_last_used": "13421578805662548",
+               "date_last_used": "13426061160279056",
                "guid": "cb13bc2f-b15c-40b3-a864-8e10ea3392a3",
                "id": "2122",
                "meta_info": {
@@ -1104,37 +1199,6 @@
             "type": "folder"
          }, {
             "children": [ {
-               "date_added": "13422721222899713",
-               "date_last_used": "13426007516049737",
-               "guid": "d3999353-ac96-4e5d-9397-c534db74267f",
-               "id": "2184",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "ChatGPT",
-               "type": "url",
-               "url": "https://chatgpt.com/"
-            }, {
-               "date_added": "13422721237502076",
-               "date_last_used": "13426006845914856",
-               "guid": "5e520f2a-79ed-454f-9f22-fe34a53237fd",
-               "id": "2185",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "DeepSeek - Into the Unknown",
-               "type": "url",
-               "url": "https://chat.deepseek.com/"
-            } ],
-            "date_added": "13422721218959773",
-            "date_last_used": "0",
-            "date_modified": "13422721239787820",
-            "guid": "241bbc94-4f67-4b2a-90af-ba31208b72d3",
-            "id": "2183",
-            "name": "LLMs",
-            "type": "folder"
-         }, {
-            "children": [ {
                "children": [ {
                   "date_added": "13414615911747219",
                   "date_last_used": "13422721241903257",
@@ -1258,7 +1322,7 @@
          }, {
             "children": [ {
                "date_added": "13424087392564873",
-               "date_last_used": "13426007128147450",
+               "date_last_used": "13426689272314902",
                "guid": "778494a9-549b-45f5-befa-cc3f58b48cc1",
                "id": "2230",
                "meta_info": {
@@ -2429,10 +2493,32 @@
                "name": "German grammar and spelling check for job application - DeepSeek",
                "type": "url",
                "url": "https://chat.deepseek.com/a/chat/s/0ff41c1d-04e9-4e98-9a18-9c23fb2b92e7"
+            }, {
+               "date_added": "13426334901235049",
+               "date_last_used": "0",
+               "guid": "afc5af08-4363-45e6-bbb9-2962b186c75b",
+               "id": "2287",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Man Pages Archive - manned.org",
+               "type": "url",
+               "url": "https://manned.org/"
+            }, {
+               "date_added": "13426513309379184",
+               "date_last_used": "0",
+               "guid": "33ebe067-5266-48e5-b269-376f8e7eeb1a",
+               "id": "2289",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "German cover letter revision - DeepSeek",
+               "type": "url",
+               "url": "https://chat.deepseek.com/a/chat/s/a989cd73-67eb-4819-af4a-05fc5532cf3c"
             } ],
             "date_added": "13415201966178115",
             "date_last_used": "0",
-            "date_modified": "13426010305061376",
+            "date_modified": "13426513309379184",
             "guid": "67c031c3-6384-488c-8aa0-4887f3432a7b",
             "id": "1866",
             "name": "resources",
@@ -2441,7 +2527,7 @@
             "children": [ {
                "children": [ {
                   "date_added": "13415178569163533",
-                  "date_last_used": "0",
+                  "date_last_used": "13426689282039184",
                   "guid": "79bf1d46-9c80-4ee2-974f-be71a8b60f25",
                   "id": "1858",
                   "meta_info": {
@@ -17103,7 +17189,7 @@
          }, {
             "children": [ {
                "date_added": "13421218879706667",
-               "date_last_used": "0",
+               "date_last_used": "13426689260333778",
                "guid": "7ce8a93c-d59e-425f-bd0f-c967a64d1f73",
                "id": "2104",
                "meta_info": {
@@ -17469,6 +17555,17 @@
             "type": "folder"
          }, {
             "children": [ {
+               "date_added": "13426931724164704",
+               "date_last_used": "0",
+               "guid": "9ed39a4d-5e0d-475e-99a8-7579b6b935c1",
+               "id": "2301",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GitHub - ToFpon/Nautilus-Extensions: Nautilus Extensions · GitHub",
+               "type": "url",
+               "url": "https://github.com/ToFpon/Nautilus-Extensions"
+            }, {
                "date_added": "13424901355314746",
                "date_last_used": "0",
                "guid": "16c3b2ba-0eed-4033-a162-1414e4650e60",
@@ -17482,15 +17579,37 @@
             } ],
             "date_added": "13424901353162279",
             "date_last_used": "0",
-            "date_modified": "13425736288541010",
+            "date_modified": "13426931724164704",
             "guid": "9cc2b1c3-2969-4a70-9570-804f5e3a1218",
             "id": "2276",
             "name": "gnome-extensions",
             "type": "folder"
+         }, {
+            "date_added": "13426144998706369",
+            "date_last_used": "13426150707269994",
+            "guid": "bd3cac6a-6f92-421f-8e49-4667bc5ee04d",
+            "id": "2285",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Files - ownCloud",
+            "type": "url",
+            "url": "https://cloud.mpi-cbg.de/index.php/s/eIZx28HJrLGm8Zz"
+         }, {
+            "date_added": "13426780031614671",
+            "date_last_used": "0",
+            "guid": "8797dead-57f5-4b06-9a95-4b3b0efa4b7e",
+            "id": "2299",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bioinformatics speed frustration - DeepSeek",
+            "type": "url",
+            "url": "https://chat.deepseek.com/a/chat/s/794fb3cd-f965-4eae-bf55-4a47e47f8945"
          } ],
          "date_added": "13413827785073061",
          "date_last_used": "0",
-         "date_modified": "13424901355314746",
+         "date_modified": "13426780031614671",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",

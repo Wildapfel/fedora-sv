@@ -18,6 +18,9 @@ Parent=FALLBACK/
 RemoteTabTitleFormat=
 SemanticHints=0
 
+[Keyboard]
+KeyBindings=New Key Binding List
+
 [Scrolling]
 HighlightScrolledLines=false
 HistoryMode=1
