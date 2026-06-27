@@ -26,8 +26,11 @@ elif [ "$CMD" = "--tools" ]; then
     ./tools/cheat/install.sh
     ./tools/wikiman/install.sh
     ./tools/micromamba/install.sh
-    ./tools/keyd/install.sh
     ./tools/yt-dlp/install.sh
+    ./tools/keyd/install.sh
+    ./tools/keyd/enable_at_startup.sh
+    ./tools/keyd/export_settings.sh
+    ./tools/keyd/reload.sh
     echo Tools done.
 
 elif [ "$CMD" = "--apps" ]; then
