@@ -8,6 +8,9 @@
 
 ---
 
+**0. Get Fedora**
+- Iam currntly using F43 
+
 **1. Layer OStree**
 - oslayering (incl. vscode)
 - continue with a reboot: `systemctl reboot`
@@ -29,5 +32,5 @@
 ./fedora_silverblue_system.sh --apps
 ```
 
-
-
+*quick note*
+- I can pick higher fedora version (e.g. F44) and validate if my system with its customizations works on this roll 
