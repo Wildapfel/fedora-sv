@@ -68,7 +68,7 @@ elif [ "$CMD" = "--gnome-tweaks" ]; then
 
 elif [ "$CMD" = "--gnome-extensions" ]; then
     ./gnome-extensions/install.sh
-    ./gnome-extensions/install_post_dconf_loading.sh
+    ./gnome-extensions/post_install_dconf_loading.sh
 
 else
     echo Undefined CMD
